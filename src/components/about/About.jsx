@@ -1,9 +1,10 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/eu.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import './about.css'
 export default function About() {
   return (
     <section className="" id="about">
@@ -12,7 +13,7 @@ export default function About() {
 
       <div className="container about__container">
         <div className="about__me">
-          <img src={ME} alt="about" />
+          <img src={ME} alt="about" className="about__me-image" />
         </div>
 
         <div className="about__content">

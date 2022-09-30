@@ -1,6 +1,6 @@
 import React from "react";
 import CTA from "./CTA";
-import ME from "../../assets/me.png";
+import ME from "../../assets/eu.png";
 import HeaderSocials from "./HeaderSocials";
 import "./Header.css";
 export default function Header() {
@@ -13,7 +13,7 @@ export default function Header() {
         <CTA />
         <HeaderSocials />
         <div className="me">
-          <img src='https://o.remove.bg/downloads/ed662c11-1c17-488d-a10e-c4089c300238/50429318-removebg-preview.png' alt="Nathan Gonçalves" />
+          <img src={ME} alt="Nathan Gonçalves" />
         </div>
         <a href="#contact" className="scroll__down">
           Scroll Down
